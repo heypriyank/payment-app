@@ -1,0 +1,39 @@
+.header__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  background-color: #50abf1;
+  margin-bottom: 5vh;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+.header__main img {
+  margin-left: 4vh;
+  height: 8vh;
+  width: 8vh;
+}
+
+.header__main button {
+  background-color: white;
+  color: #50abf1;
+  border: 0px;
+  /* float: right; */
+  margin-right: 5vh;
+  /* margin-right: 10vh; */
+}
+
+.header__main p {
+  margin-top: 2vh;
+  font-size: large;
+}
+
+.balance__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
